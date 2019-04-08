@@ -45,7 +45,7 @@ Example of adding composite builders for the Braintree payment provider ([`app/c
             <item name="merchant_account" xsi:type="string">Magento\Braintree\Gateway\Request\MerchantAccountDataBuilder</item>
         </argument>
     </arguments>
-</virtualType> 
+</virtualType>
 ...
 <!-- The same BraintreeAuthorizeRequest builder composite is a part of the BraintreeSaleRequest builder composite -->
 <virtualType name="BraintreeSaleRequest" type="Magento\Payment\Gateway\Request\BuilderComposite">
